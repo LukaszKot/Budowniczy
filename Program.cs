@@ -161,17 +161,14 @@ public class Program
 
         ComputerBuilder officeComputerBuilder = new OfficeComputerBuilder();
         computerShop.ConstructComputer(officeComputerBuilder);
-
         officeComputerBuilder.Computer.DisplayConfiguration();
 
         ComputerBuilder gamingComputerBuilder = new GamingComputerBuilder();
         computerShop.ConstructComputer(gamingComputerBuilder);
-
         gamingComputerBuilder.Computer.DisplayConfiguration();
 
         ComputerBuilder professionalComputerBuilder = new ProfessionalComputerBuilder();
         computerShop.ConstructComputer(professionalComputerBuilder);
-
         professionalComputerBuilder.Computer.DisplayConfiguration();
 
 
